@@ -11,8 +11,11 @@ For example, say you have a file test.yaml that contains:
 
 >
 > foo: 12345
+>
 > baz: abc123
+>
 > bar: "hello world"
+>
 > pi: 3.1415926
 >
 
