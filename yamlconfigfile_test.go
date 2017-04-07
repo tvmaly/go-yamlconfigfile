@@ -12,7 +12,8 @@ func TestLoadYAMLFile(t *testing.T) {
 	if err != nil {
 		t.Fatalf("Error loading yaml test file: %s", err)
 	} else {
-		fmt.Printf("Loaded\n: %v\n", yaml)
+		fmt.Printf("Type\n: %T\n", yaml)
+		fmt.Printf("Loaded Values\n: %v\n", yaml)
 	}
 
 }
